@@ -1,0 +1,190 @@
+body {
+  min-width: 1200px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2e7e6+0,e86c57+50,ea2803+67,ff6600+49,c72200+62;Red+Gloss */
+  background: linear-gradient(45deg,  #f2e7e6 0%,#e86c57 50%,#ea2803 67%,#ff6600 49%,#c72200 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  padding: 1em 0;
+  color: #222;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#main-nav {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: red;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: left;
+  left: 50%;
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+#main-nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.3em 1em;
+  color: #fff;
+}
+
+#main-nav ul li.onpage a {
+  text-decoration: overline underline;
+}
+
+#main-nav ul li a:hover {
+  background-color: black;
+}
+
+#main-body {
+  clear: both;
+  width: 1000px;
+  margin: 3em auto 0;
+}
+
+#checklist {
+  border: 1px solid red;
+  padding: 1em;
+}
+
+#checklist h3 {
+  padding: 0 0 0 0.25em;
+  margin: 0 0 1em;
+  background-color: red;
+  color: #fff;
+}
+#checklist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#checklist ul li input {
+  display: inline-block;
+  margin-right: 0.25em;
+}
+
+aside.aside-img {
+  position: absolute;
+  width: 150px;
+  overflow: hidden;
+  top: 200px;
+  left: max(calc(calc(calc(100% - 1000px) / 2) + 1010px), 1110px);
+}
+
+aside.aside-img img {
+  width: 100%;
+}
+
+.bottom {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 3em;
+}
+
+.bottom .bottom-col {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.bottom .lyrics {
+  box-sizing: border-box;
+  padding-left: 1em;
+  text-align: center;
+}
+
+.bottom .lyrics h4 {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.bottom .lyrics p {
+  padding: 0;
+  margin: 0.25em 0;
+  font-size: 0.75em;
+}
+
+.bottom .lyrics p.lyrics-title-en {
+  font-size: 0.90em;
+  margin-bottom: 0.5em;
+}
+
+.bottom .lyrics p.lyrics-current-line {
+  font-size: 0.9em;
+  background-color: red;
+  color: #fff;
+  display: inline-block;
+  padding: 0 0.5em;
+  font-style: italic;
+}
+
+h2 {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 0.25em 0.5em;
+  text-align: center;
+  min-width: 210px;
+  border-radius: 10px;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#skills ul li {
+  float: left;
+  margin-left: 10px;
+  border: 1px solid red;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#skills ul li h3 {
+  padding: 0;
+  margin: 0;
+}
+
+#skills ul li p {
+  font-size: 0.80em;
+}
+
+.footer {
+  height: 5em;
+}
+
+.clear {
+  clear: both;
+}
+
+#game-content .img-container {
+  float: left;
+  margin-right: 1em;
+}
+
+#game-content .img-container .source{
+  text-align: right;
+  padding: 0;
+  margin: 0 0 0.75em;
+  font-size: 0.75em;
+}
