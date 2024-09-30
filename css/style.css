@@ -9,7 +9,7 @@ h1 {
   background: linear-gradient(45deg,  #f2e7e6 0%,#e86c57 50%,#ea2803 67%,#ff6600 49%,#c72200 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   padding: 1em 0;
   color: #222;
-  font-family: "Lilita One", sans-serif;
+  font-family: "Lilita One", monospace, serif;
   font-weight: 400;
   font-style: normal;
 }
