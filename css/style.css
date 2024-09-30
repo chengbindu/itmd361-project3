@@ -145,3 +145,23 @@ h2 {
   min-width: 210px;
   border-radius: 10px;
 }
+
+#skills table {
+  width: 100%;
+}
+#skills table th {
+  padding: 0.5em 0;
+}
+
+#skills table td, #skills table th {
+  border: 1px solid red;
+}
+
+#skills table .whitespace {
+  width: 1em;
+  border: inherit;
+}
+#skills table tr td {
+  font-size: 0.8em;
+  padding: 0.5em;
+}
