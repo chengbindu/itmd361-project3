@@ -23,6 +23,11 @@ async function initMap() {
     position: position,
     title: 'Camp location'
   });
+
+
+  marker.addListener("click", () => {
+    alert('Hello~')
+  });
 }
 
 initMap();
