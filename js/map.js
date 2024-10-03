@@ -6,7 +6,7 @@
 let map;
 
 async function initMap() {
-  const { Map } = await google.maps.importLibrary("maps");
+  const { Map, InfoWindow } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
 
@@ -24,9 +24,16 @@ async function initMap() {
     title: 'Camp location'
   });
 
+  const infowindow = new InfoWindow({
+    content: "<div><h3>北龙湖湿地公园露营地</h3><div><p>Here is the description</p></div></div>",
+    ariaLabel: "Camp location",
+  });
 
   marker.addListener("click", () => {
-    alert('Hello~')
+    infowindow.open({
+      anchor: marker,
+      map,
+    });
   });
 }
 
