@@ -205,6 +205,9 @@ h2 {
   height: 400px;
   background-color: gray;
   margin: 0 auto;
+  border: 5px solid red;
+  border-radius: 5px;
+  box-shadow: 12px 12px 2px 1px rgba(212, 0, 255, 0.352);
 }
 
 #legend {
