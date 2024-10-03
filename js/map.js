@@ -7,10 +7,21 @@ let map;
 
 async function initMap() {
   const { Map } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+
+  const position = { lat: 34.821348, lng: 113.709850 };
 
   map = new Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
+    center: position,
+    zoom: 13,
+    mapId: "DEMO_MAP_ID",
+  });
+
+  const marker = new AdvancedMarkerElement({
+    map: map,
+    position: position,
+    title: 'Camp location'
   });
 }
 
