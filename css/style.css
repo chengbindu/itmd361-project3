@@ -151,24 +151,28 @@ h2 {
   border-radius: 10px;
 }
 
-#skills table {
-  width: 100%;
-}
-#skills table th {
-  padding: 0.5em 0;
+#skills .skills-group {
+  display: flex;
+  gap: 2em;
 }
 
-#skills table td, #skills table th {
+#skills .skills-group ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#skills .skills-group ul li {
   border: 1px solid red;
+  padding: 0.5em;
+}
+#skills .skills-group ul li+li {
+  margin-top: -1px;
 }
 
-#skills table .whitespace {
-  width: 1em;
-  border: inherit;
-}
-#skills table tr td {
-  font-size: 0.8em;
-  padding: 0.5em;
+#skills .skills-group ul li:first-child {
+  font-weight: bold;
+  text-align: center;
 }
 
 .footer {
