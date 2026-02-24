@@ -235,9 +235,10 @@ h2 {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px
 }
 
-#legend h3 {
-  margin-top: 0;
-  margin-bottom: 0.25em;
+#legend p.legend-title {
+  margin: 0 0 0.5em;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 #legend p {
