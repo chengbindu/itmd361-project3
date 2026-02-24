@@ -5,7 +5,7 @@ h1 {
   background: linear-gradient(45deg,  #f2e7e6 0%,#e86c57 50%,#ea2803 67%,#ff6600 49%,#c72200 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   padding: 1em 0;
   color: #222;
-  font-family: "Lilita One", monospace, serif;
+  font-family: "Lilita One", monospace, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -163,24 +163,28 @@ h2 {
   border-radius: 10px;
 }
 
-#skills table {
-  width: 100%;
-}
-#skills table th {
-  padding: 0.5em 0;
+#skills .skills-group {
+  display: flex;
+  gap: 2em;
 }
 
-#skills table td, #skills table th {
+#skills .skills-group ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#skills .skills-group ul li {
   border: 1px solid red;
+  padding: 0.5em;
+}
+#skills .skills-group ul li+li {
+  margin-top: -1px;
 }
 
-#skills table .whitespace {
-  width: 1em;
-  border: inherit;
-}
-#skills table tr td {
-  font-size: 0.8em;
-  padding: 0.5em;
+#skills .skills-group ul li:first-child {
+  font-weight: bold;
+  text-align: center;
 }
 
 .footer {
